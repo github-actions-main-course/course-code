@@ -7,7 +7,7 @@ jobs:
     steps: 
       - name: Simple JS Action
         id: greet
-        uses: /hello-world-javascript-action@cb84eebcf9
+        uses: github-actions-main-course/hello-world-javascript-action@34c0e566059dde69f6cfaed84e8910908feb750b
         with: 
           who-to-greet: Chris
       - name: Log Greeting Time
