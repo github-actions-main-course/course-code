@@ -1,6 +1,5 @@
 name: Repository Events
 on:
-  # [push, pull_request, issues] 
   push: 
   pull_request:
     types: [opened, assigned, reopened, synchronize]
