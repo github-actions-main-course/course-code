@@ -16,7 +16,7 @@ jobs:
             - name: Setting a notice message with params
               run: echo "::notice title=Error title,file=app.js,line=2,endLine=3,col=5,endColumn=7::Missing Semicolon"
             - name: Group of logs
-              run: 
+              run:  |
                 echo "::group::My group title"
                 echo "Inside group"
                 echo "::gendgroup::"
