@@ -7,3 +7,4 @@ alert(true)
 alert(true)
 alert(true)
 alert(true)
+// This is my cool trick, pretty nifty huh?
